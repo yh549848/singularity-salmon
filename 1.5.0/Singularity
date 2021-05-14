@@ -1,5 +1,5 @@
 BootStrap: docker
-From: quay.io/biocontainers/salmon:1.1.0--hf69c8f4_0
+From: combinelab/salmon:1.5.0
 
 %apprun salmon
   exec salmon "${@}"
